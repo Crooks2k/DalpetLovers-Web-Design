@@ -1,0 +1,25 @@
+#shoping-cart-but{
+    background-color: transparent!important;
+    border: none;
+    color: #FFFFFF; /*Shoping cart icon color*/
+    padding-top: 0rem;
+    font-weight: 900;
+    padding: 0;
+}
+#shoping-cart-but:hover{
+    color: #FFB200; /*Shoping cart hover icon color*/
+}
+#shoping-cart{
+    width: 20px;
+    height: 20px;
+    transform: scale(1.5);
+    margin-top: 0rem;
+}
+#shoping-cart__header{
+    background-color: #FFB200;
+}
+@media (min-width: 1024px){
+    #shoping-cart-but{
+        padding-right: 0.5rem;
+    }
+}

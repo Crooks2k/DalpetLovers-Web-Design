@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.main-div{
+    width: 100%;
+    background-color: #FFB200;
+    z-index: -5;
+    position: relative;
+    padding-top: 5.5rem;
+    padding-left: 1.5rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+#Yellow-square{
+    width: 150px;
+    height: 150px;
+    z-index: -10;
+    background-color: #FFB200;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-div h3{
+    color: #B7161E;
+    font-size: 16px;
+    font-family: 'Livvic', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.main-div p{
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 10em;
+    letter-spacing: 1px;
+    font-family: 'Fredoka One', cursive;
+}
+#InicioVibe{
+    width: 100%;
+    position: absolute;
+}
+/*Responsive*/
+@media (min-width: 320px){
+   
+}
+@media (min-width: 440px){
+    .main-div{
+        padding-top: 7em;
+        padding-left: 1.5rem;
+    }
+    .main-div h3{
+        font-size: 25px;
+    }
+    .main-div p{
+        font-size: 28px;
+    }
+} 
+@media (min-width: 600px){
+   .main-div{
+    padding-left: 5rem;
+   }
+} 
+@media (min-width: 767px){
+   .main-div{
+    padding-left: 6rem;
+   }
+   .main-div p{
+    width: 15em;
+   }
+   .main-div{
+    padding-top: 8rem;
+    
+}
+} 
+@media (min-width: 1024px){
+    .main-div{
+        padding-left: 6.5rem;
+       }
+    .main-div h3{
+        font-size: 35px;
+    }
+    .main-div p{
+        font-size: 35px;
+    }
+}
+@media (min-width: 1224px){
+}
