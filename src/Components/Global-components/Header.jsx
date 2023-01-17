@@ -38,7 +38,7 @@ function Header() {
                 onHide={handleCloseOffcanvas}>
 
                 <Offcanvas.Header closeButton id="offcanvas-body-act">
-                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="offcanvas-body-act-e"></Offcanvas.Title>
+                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="offcanvas-body-act-e"><img src={Huellita} id="offcanvas-huellita"/></Offcanvas.Title>
                 </Offcanvas.Header>
 
                 <Offcanvas.Body id="offcanvas-body">

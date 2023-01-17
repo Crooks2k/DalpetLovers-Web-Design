@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { AiOutlineShoppingCart } from 'react-icons/Ai';
+import Huellita from "../../assets/Images/Global-components-assets/Huellita-logo.png"
 
 function OffCanvasExample({ name, ...props }) {
   const [show, setShow] = useState(false);
@@ -16,7 +17,7 @@ function OffCanvasExample({ name, ...props }) {
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton id="shoping-cart__header">
-          <Offcanvas.Title>Comprar Productos</Offcanvas.Title>
+          <Offcanvas.Title><img src={Huellita} id="shop-cart__icon"/>Comprar Productos </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           Shoping card content here

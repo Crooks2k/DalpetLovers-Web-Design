@@ -49,7 +49,7 @@ header div{
     width: 100%;
     position: absolute;
     z-index: -1;
-
+    margin-top: -0.05rem;
 }
 /*Hamburguer menu styles*/
 #butt-nav{
@@ -78,8 +78,11 @@ header div{
     width: 25px!important;
     height: 25px!important;
 }
-.btn-close:hover{
-    background-image: url("../../assets/Images/Global-components-assets/hamburguer-close-hover.png")!important;
+#offcanvas-huellita{
+    width: 35px;
+    height: 35px;
+    margin-left: 0.5rem;
+    transform: rotateZ(20deg);
 }
 /*Responsive*/
 @media (max-width: 320px){

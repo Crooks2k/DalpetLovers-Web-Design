@@ -18,6 +18,12 @@
 #shoping-cart__header{
     background-color: #FFB200;
 }
+#shop-cart__icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+    transform: rotateZ(-20deg);
+}
 @media (min-width: 1024px){
     #shoping-cart-but{
         padding-right: 0.5rem;
