@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+footer{
+    width: 100%;
+    background-color: #B7161E;
+}
+.Footer-main{
+    width: 100%;
+    background-color: #B7161E;
+    padding-top: 1.4rem;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1.3rem;
+}
+.Footer-main h4{
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+}
+#DalpetIcon{
+    width: 35px;
+    margin-bottom: 0.4rem;
+}
+.footicon{
+    display: flex;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.footicon p{
+    margin-left: 0.5rem;
+    font-size: 15px;
+    font-family: 'Livvic', sans-serif;
+}
+#footicon1 p{
+    font-size: 10px;
+}
+#icon-fott1, #icon-fott2, #icon-fott3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer links */
+#Footer__links{
+    display: grid;
+    grid-template-columns: column!important;
+    grid-row: row!important;
+    margin-left: 1.3rem;
+}

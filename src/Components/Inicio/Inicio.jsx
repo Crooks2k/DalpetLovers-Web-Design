@@ -7,6 +7,7 @@ import Dalpet from "../../assets/Images/Inicio-assets/Inicio-Dalpet.png"
 import Dalpet2 from "../../assets/Images/Inicio-assets/Inicio-Dalpet2.png"
 import InicioSection2 from './InicioSection2'
 import ContactForm from './ContactForm'
+import Footer from '../Global-components/Footer'
 const Inicio = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const Inicio = () => {
 
     <InicioSection2/>
     <ContactForm/>
+    <Footer/>
     </>
   )
 }

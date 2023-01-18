@@ -35,7 +35,7 @@
 #InicioVibe{
     width: 100%;
     position: absolute;
-    margin-top: -0.05rem;
+    margin-top: -0.1rem;
     z-index: -2;
 }
 #imgInicio1{ /*ingredients text img*/
@@ -117,6 +117,13 @@
     }
     #buy-butt button{
         margin-top: 6rem;
+    }
+    #imgInicio4{ /*dog img*/
+        width: 55%;
+        position: absolute;
+        top: 6%;
+        right: 0;
+        z-index: -1;
     }
 } 
 @media (min-width: 500px){

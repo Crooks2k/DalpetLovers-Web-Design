@@ -53,7 +53,7 @@
     border: 3px solid #d19407;
 }
 #form__submit-butt{
-    width: 130px;
+    width: 100px;
     padding: 0.3rem 0rem;
     border-radius: 9px;
     border: none;
@@ -73,7 +73,7 @@
     margin-top: -0.1rem;
 }
 #ContactCat{
-    width: 70%;
+    width: 30%;
     position: absolute;
     right: 0;
     transform: translateY(-120px);
@@ -83,15 +83,18 @@
 }
 /*Responsive*/
 @media (min-width: 320px){
+    #ContactCat{
+        width: 30%;
+    }
 }
 @media (min-width: 440px){
     #ContactCat{
-        width: 60%;
+        width: 30%;
     }
 } 
 @media (min-width: 500px){
     #ContactCat{
-        width: 43%;
+        width: 30%;
         transform: translateY(-200px);
     }
     #form__submit-butt{
@@ -116,6 +119,9 @@
     }
 }
 @media (min-width: 600px){
+    #ContactCat{
+        width: 30%;
+    }
 } 
 @media (min-width: 767px){
     #form__submit-butt{
@@ -137,7 +143,8 @@
 }
 @media (min-width: 1224px){
     #ContactCat{
-        transform: translateY(-300px);
+        width: 25%;
+        transform: translateY(-320px);
     }
     #form-name, #form__email{
         width: 880px;
