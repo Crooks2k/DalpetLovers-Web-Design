@@ -11,9 +11,10 @@ footer{
     padding-top: 1.4rem;
     margin-top: 3rem;
     margin-right: 1.5rem;
-    padding-bottom: 2rem;
     padding-left: 1.3rem;
 }
+
+/* Footer head */
 .Footer-main h4{
     color: #FFFFFF;
     margin-bottom: 1.5rem;
@@ -47,4 +48,188 @@ footer{
     grid-template-columns: column!important;
     grid-row: row!important;
     margin-left: 1.3rem;
+}
+.Dropdown-menu{
+    width: 100%;
+}
+#drop1,#drop2,#drop3,#drop4{
+    background-color: #B7161E!important;
+    border: none;
+    width: 80%;
+    font-family: 'Fredoka One', cursive;
+    text-align: start;
+    padding-left: 1.3rem;
+    border-radius: 0px!important;
+}
+.dropdown-toggle,.dropdown-toggle4{
+    background-color: #B7161E!important;
+    border: none!important;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 0px!important;
+}
+#drop4, .dropdown-toggle4{
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.Dropdown__Menu{
+    background-color: #FFB200!important;
+    font-family: 'Livvic', sans-serif;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+/* Social */
+.Social{
+    margin-top: 1rem;
+    padding-left: 1.3rem;
+}
+.Social h3{
+    color: #FFFFFF;
+    font-family: 'Fredoka One', cursive;
+}
+.Social__links{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+.social-icon{
+    width: 34px;
+    height: 30px;
+    color: #FFFFFF;
+}
+.social-icon__figure{
+    border-radius: 100%;
+    background-color: #FFB200;
+    padding: 0.4rem 0.3rem;
+}
+.social-icon__figure:hover{
+    background-color: #e0a210;
+}
+
+/* Footer for desktop version */
+.Footer-main1{
+    width: 100%;
+    background-color: #B7161E;
+    padding-top: 2.5rem;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    display: none!important;
+}
+.linkregroup{
+    display: flex;
+    flex-direction: column;
+}
+.Footer-main1{
+    display: grid;
+    grid-template-columns: 20% 16% 13% 13% 16% 15%;
+}
+   /*tittles color and margin*/
+.Footer-main1 h5{
+    color: #FFB200;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 0.2rem;
+}
+   /*link tittle and margin*/
+.link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.4rem
+}
+.link:hover{
+    color: #FFB200;
+}
+
+   /*Social links styles*/
+.Foot__Social h4{
+    color: #FFB200;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 0.8rem;
+    font-size: 21px;
+}
+
+   /*Logo and text styles*/
+.Fot-desc h4{
+    color: #FFFFFF;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 0.6rem;
+}
+.Fot-desc h4:hover{
+    color: #FFB200;
+}
+#DalpetIcon__fot{
+    width: 35px;
+    margin-bottom: 0.6rem;
+    margin-left: 3.6rem;
+}
+   /* Footer ubication icon */
+#icon-fott1-d{
+    font-size: 20px;
+}
+#icon-fott2-d{
+    font-size: 17px;
+    margin-left: 0.1rem;
+}
+#icon-fott3-d{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+   /* Foot email */
+.Footer-email{
+    display: flex;
+    gap: 0.1rem;
+}
+/*Responsive*/
+@media (min-width: 320px){
+}
+@media (min-width: 440px){
+    #footicon1 p{
+        font-size: 16px;
+    }
+    #icon-fott1, #icon-fott2, #icon-fott3{
+        font-size: 24px;
+    }
+    .Footer-main h4{
+        font-size: 30px;
+    }
+    #DalpetIcon{
+        width: 40px;
+    }
+} 
+@media (min-width: 500px){
+}
+@media (min-width: 600px){
+    #footicon1 p{
+        font-size: 19px;
+    }
+    #icon-fott1, #icon-fott2, #icon-fott3{
+        font-size: 28px;
+    }
+    .Footer-main h4{
+        font-size: 30px;
+    }
+    #DalpetIcon{
+        width: 40px;
+    }
+} 
+@media (min-width: 767px){
+} 
+@media (min-width: 900px){
+}
+@media (min-width: 1023px){
+    .Footer-Display{
+        display: none;
+    }
+    .Footer-main1{
+        display: block!important;
+    }
+    .Footer-main1{
+        display: grid!important;
+        grid-template-columns: 20% 16% 13% 13% 16% 15%!important;
+    }
+}
+@media (min-width: 1224px){
+}
+@media (min-width: 1424px){
 }
