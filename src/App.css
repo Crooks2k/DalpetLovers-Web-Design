@@ -1,3 +1,17 @@
 body,html{
     width: 100%;
 }
+/* body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #B7161E;
+    border: 2px solid #FFFFFF;
+    border-bottom: none;
+    border-top: none;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #FFB200;
+    border: 2px solid #B7161E;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 100px;
+  } */

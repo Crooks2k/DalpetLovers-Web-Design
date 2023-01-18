@@ -20,7 +20,7 @@
 }
 .main-div h3{
     color: #B7161E;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Livvic', sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
@@ -100,7 +100,7 @@
         padding-left: 1.5rem;
     }
     .main-div h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .main-div p{
         font-size: 28px;
@@ -164,6 +164,7 @@
     width: 41%;
     left: 42%; 
     top: 18em;
+    z-index: -2;
    }
    #imgInicio3{
     display: none;
@@ -172,13 +173,21 @@
         margin-top: 16rem;
         transform: scale(1.4);
     }
+    #imgInicio4{
+        z-index: -1;
+    }
 } 
+@media (min-width: 900px){
+    #imgInicio4{
+        width: 46%;
+    }
+}
 @media (min-width: 1023px){
     .main-div{
         padding-left: 6.5rem;
        }
     .main-div h3{
-        font-size: 35px;
+        font-size: 27px;
     }
     .main-div p{
         font-size: 40px;
@@ -193,7 +202,7 @@
         top: 20em;
     }
     #imgInicio4{
-        top: 3%;
+        top: -1%;
     }
     #buy-butt button{
         margin-top: 18rem;

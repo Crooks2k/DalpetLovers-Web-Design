@@ -4,6 +4,7 @@ import './Components/Global-components/Header.css'
 import './Components/Global-components/ShopingCart.css'
 import './Components/Inicio/Inicio.css'
 import './Components/Inicio/InicioSection2.css'
+import './Components/Inicio/ContactForm.css'
 import Inicio from './Components/Inicio/Inicio'
 
 function App() {

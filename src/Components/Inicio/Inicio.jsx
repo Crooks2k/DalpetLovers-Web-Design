@@ -5,6 +5,8 @@ import dog from "../../assets/Images/Inicio-assets/Inicio-perro.png"
 import text from "../../assets/Images/Inicio-assets/Inicio-text.png"
 import Dalpet from "../../assets/Images/Inicio-assets/Inicio-Dalpet.png"
 import Dalpet2 from "../../assets/Images/Inicio-assets/Inicio-Dalpet2.png"
+import InicioSection2 from './InicioSection2'
+import ContactForm from './ContactForm'
 const Inicio = () => {
   return (
     <>
@@ -29,7 +31,10 @@ const Inicio = () => {
 
     <div id="buy-butt">
         <button id="buy-butt">Comprar</button>
-        </div>
+    </div>
+
+    <InicioSection2/>
+    <ContactForm/>
     </>
   )
 }
