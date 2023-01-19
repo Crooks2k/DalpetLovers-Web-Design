@@ -2,6 +2,7 @@ import React from 'react'
 import DogCat from "../../assets/Images/Inicio-assets/InicioSection2/Dog-and-Cat.png"
 import Benefits from "../../assets/Images/Inicio-assets/InicioSection2/Benefits.png"
 import Container from 'react-bootstrap/Container';
+import { Link} from 'react-router-dom'
 
 
 const InicioSection2 = () => {

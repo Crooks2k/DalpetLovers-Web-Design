@@ -90,7 +90,7 @@ const Footer = () => {
           <Link to="" className='link'>Acerca de</Link>
         </div>
 
-        <div clasName="Foot__Services">
+        <div className="Foot__Services">
           <h5>Servicios</h5>
           <div className='linkregroup'>
             <Link to="" className='link'>Productos</Link>
