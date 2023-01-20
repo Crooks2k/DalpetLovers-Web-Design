@@ -7,7 +7,8 @@ import ShopingCart from './ShopingCart';
 import { useState } from 'react';
 import HeaderVibe from "../../assets/Images/Global-components-assets/Header-vibe.png"
 import Huellita from "../../assets/Images/Global-components-assets/Huellita-logo.png"
-function Header() {
+function Header({AllProducts, setAllProducts}) {
+  
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
   
   const handleOpenOffcanvas = () => {
@@ -53,9 +54,11 @@ function Header() {
 
               {/* Shoping cart */}
               <ShopingCart 
-              onClick={handleOpenOffcanvas} 
+              onClick={handleOpenOffcanvas}
               show={isOffcanvasOpen}
-              onHide={handleCloseOffcanvas}/>
+              onHide={handleCloseOffcanvas}
+              AllProducts={AllProducts}
+              setAllProducts={setAllProducts}/>
             </div>
           </Container>
         </Navbar>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 #shoping-cart-but{
     background-color: transparent!important;
     border: none;
@@ -23,6 +25,32 @@
     height: 25px;
     margin-right: 0.5rem;
     transform: rotateZ(-20deg);
+}
+#Shoping-cart-tittle{
+    font-family: 'Fredoka One', cursive;
+    color: #FFFFFF;
+}
+#Shoping-card-body{
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+}
+#Shoping-cart__price{
+    background-color: #FFB200;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+#shop-cart__tittle-price{
+    color: #FFFFFF;
+    font-family: 'Fredoka One', cursive;
+}
+#Shop-cart-nothing-image{
+    width: 180px;
+    filter: saturate(1);
+}
+.nothing-in-cart{
+    transform: translate(0, 15%);
+    opacity: 0.4;
+    font-family: 'Fredoka One', cursive!important;
 }
 @media (min-width: 1024px){
     #shoping-cart-but{

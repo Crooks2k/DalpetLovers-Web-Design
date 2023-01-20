@@ -8,10 +8,11 @@ import Dalpet2 from "../../assets/Images/Inicio-assets/Inicio-Dalpet2.png"
 import InicioSection2 from './InicioSection2'
 import ContactForm from './ContactForm'
 import Footer from '../Global-components/Footer'
-const Inicio = () => {
+const Inicio = ({AllProducts, setAllProducts}) => {
+  
   return (
     <>
-    <Header/>
+    <Header AllProducts={AllProducts} setAllProducts={setAllProducts}/>
     <div id="Yellow-square"></div>
     <div className="King-div">
         <div  className='main-div'>
