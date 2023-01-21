@@ -30,9 +30,10 @@ export const Products =
     "alt": "Daldog raza pequeña 1kg",
     "peso": "1kg",
     "image": Daldog1kg,
-    "price": "$15.250",
+    "price": 15250,
     "type": "cachorro",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
   {"id": 2,
     "ProductName": "Daldog Cachorro",
@@ -40,9 +41,10 @@ export const Products =
     "alt": "Daldog raza pequeña 10,1kg",
     "peso": "10,1kg",
     "image": Daldog10kg,
-    "price": "$128.500",
+    "price": 128500,
     "type": "cachorro",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
   {"id": 3,
     "ProductName": "Daldog Cachorro",
@@ -50,9 +52,10 @@ export const Products =
     "alt": "Daldog raza pequeña 25kg",
     "peso": "25kg",
     "image": Daldog25kg,
-    "price": "$282.800",
+    "price": 282800,
     "type": "cachorro",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     // Daldog adulto raza pequeña
   {"id": 4,
@@ -61,9 +64,10 @@ export const Products =
     "alt": "Daldog raza pequeña 1kg",
     "peso": "1kg",
     "image": DaldogA1kg,
-    "price": "$15.200",
+    "price": 15200,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
   {"id": 5,
     "ProductName": "Daldog Adulto",
@@ -71,9 +75,10 @@ export const Products =
     "alt": "Daldog raza pequeña 10.1kg",
     "peso": "10,1kg",
     "image": DaldogA10kg,
-    "price": "$125.600",
+    "price": 125600,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
   {"id": 6,
     "ProductName": "Daldog Adulto",
@@ -81,9 +86,10 @@ export const Products =
     "alt": "Daldog raza pequeña 25kg",
     "peso": "25kg",
     "image": DaldogA25kg,
-    "price": "276.000",
+    "price": 276000,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     // Daldog adulto raza media y grande
 
@@ -93,9 +99,10 @@ export const Products =
     "alt": "Daldog raza media / grande 15kg",
     "peso": "15kg",
     "image": DaldogMGA15kg,
-    "price": "$153.700",
+    "price": 153700,
     "type": "adulto",
-    "raza": "grande"},
+    "raza": "grande",
+    "quantity": 1,},
 
   {"id": 8,
     "ProductName": "Daldog Adulto",
@@ -103,9 +110,10 @@ export const Products =
     "alt": "Daldog raza media / grande 25kg",
     "peso": "25kg",
     "image": DaldogMGA25kg,
-    "price": "$244.000",
+    "price": 244000,
     "type": "adulto",
-    "raza": "grande"},
+    "raza": "grande",
+    "quantity": 1,},
 
     //Pro Omega cachorro razas pequeñas
 
@@ -115,9 +123,10 @@ export const Products =
     "alt": "Pro Omega Cachorro 1kg",
     "peso": "1kg",
     "image": ProOmega1kg,
-    "price": "$18.100",
+    "price": 18100,
     "type": "cachorro",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     {"id": 10,
     "ProductName": "Pro Omega Cachorro",
@@ -125,9 +134,10 @@ export const Products =
     "alt": "Pro Omega Cachorro 3kg",
     "peso": "3kg",
     "image": ProOmega3kg,
-    "price": "$45.400",
+    "price": 45400,
     "type": "cachorro",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     //Pro omega adulto razas pequeñas
 
@@ -137,9 +147,10 @@ export const Products =
     "alt": "Pro Omega Adulto 1kg",
     "peso": "1kg",
     "image": ProOmegaA1kg,
-    "price": "$16.600",
+    "price": 16600,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     {"id": 12,
     "ProductName": "Pro Omega Adulto",
@@ -147,9 +158,10 @@ export const Products =
     "alt": "Pro Omega Adulto 3kg",
     "peso": "3kg",
     "image": ProOmegaA3kg,
-    "price": "$45.400",
+    "price": 45400,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 
     {"id": 13,
     "ProductName": "Pro Omega Adulto",
@@ -157,7 +169,8 @@ export const Products =
     "alt": "Pro Omega Adulto 10,1kg",
     "peso": "10,1kg",
     "image": ProOmegaA10kg,
-    "price": "$128.500",
+    "price": 128500,
     "type": "adulto",
-    "raza": "pequeña"},
+    "raza": "pequeña",
+    "quantity": 1,},
 ]

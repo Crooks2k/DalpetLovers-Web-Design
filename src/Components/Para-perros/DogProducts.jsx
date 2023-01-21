@@ -6,13 +6,20 @@ import {Products} from "./data.js"
 import ProductList from './ProductList'
 
 //props from app.jsx to enter products in the car
-const DogProducts = ({AllProducts, setAllProducts}) => {
+const DogProducts = ({AllProducts, setAllProducts, Total, setTotal, CountProducts, setCountProducts}) => {
   
   return (
     <>
       <div id="Yellow-square"></div>
       <div className="Header">
-        <Header AllProducts={AllProducts} setAllProducts={setAllProducts}/>
+        <Header 
+        AllProducts={AllProducts} 
+        setAllProducts={setAllProducts} 
+        Total={Total} 
+        setTotal={setTotal} 
+        CountProducts={CountProducts} 
+        setCountProducts={setCountProducts}/>
+
         <img src={HeaderVibe} alt="Header-vibe" id="HeaderVibe"/>
       </div>
 
@@ -54,7 +61,11 @@ const DogProducts = ({AllProducts, setAllProducts}) => {
                   key={item.id} 
                   item={item} 
                   AllProducts={AllProducts} 
-                  setAllProducts={setAllProducts}/>
+                  setAllProducts={setAllProducts}
+                  CountProducts={CountProducts} 
+                  setCountProducts={setCountProducts}
+                  Total={Total}
+                  setTotal={setTotal}/>
                 )
               })
             }

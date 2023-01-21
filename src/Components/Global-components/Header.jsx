@@ -7,7 +7,7 @@ import ShopingCart from './ShopingCart';
 import { useState } from 'react';
 import HeaderVibe from "../../assets/Images/Global-components-assets/Header-vibe.png"
 import Huellita from "../../assets/Images/Global-components-assets/Huellita-logo.png"
-function Header({AllProducts, setAllProducts}) {
+function Header({AllProducts, setAllProducts, Total, setTotal, CountProducts, setCountProducts}) {
   
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
   
@@ -51,14 +51,21 @@ function Header({AllProducts, setAllProducts}) {
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
-
-              {/* Shoping cart */}
-              <ShopingCart 
-              onClick={handleOpenOffcanvas}
-              show={isOffcanvasOpen}
-              onHide={handleCloseOffcanvas}
-              AllProducts={AllProducts}
-              setAllProducts={setAllProducts}/>
+              <div class="Shop-icon-and-count">
+                {/* Shoping cart */}
+                <ShopingCart 
+                onClick={handleOpenOffcanvas}
+                show={isOffcanvasOpen}
+                onHide={handleCloseOffcanvas}
+                AllProducts={AllProducts}
+                setAllProducts={setAllProducts}
+                Total={Total} 
+                setTotal={setTotal} 
+                CountProducts={CountProducts}
+                setCountProducts={setCountProducts}
+                />
+                <p id="count-products">{CountProducts}</p>
+              </div>
             </div>
           </Container>
         </Navbar>

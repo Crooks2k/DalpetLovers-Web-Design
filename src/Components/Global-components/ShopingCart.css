@@ -23,8 +23,9 @@
 #shop-cart__icon{
     width: 25px;
     height: 25px;
-    margin-right: 0.5rem;
+    margin-right: 0rem;
     transform: rotateZ(-20deg);
+    z-index: -3;
 }
 #Shoping-cart-tittle{
     font-family: 'Fredoka One', cursive;
@@ -40,7 +41,7 @@
     padding-bottom: 1.3rem;
 }
 #shop-cart__tittle-price{
-    color: #FFFFFF;
+    color: #B7161E;
     font-family: 'Fredoka One', cursive;
 }
 #Shop-cart-nothing-image{
@@ -51,6 +52,27 @@
     transform: translate(0, 15%);
     opacity: 0.4;
     font-family: 'Fredoka One', cursive!important;
+}
+#total-price{
+    color: #B7161E;
+    margin-left: 1rem!important;
+}
+#Clear-shopping-cart__content{
+    width: 100%;
+    padding-top: 0rem;
+    background-color: #FFB200;
+    display: flex;
+    gap: 0.2rem;
+}
+#Clear-shopping-cart__content p{
+    color: #B7161E;
+    padding-top: 0.3rem;
+    font-family: 'Fredoka One', cursive!important;
+}
+#Clear-shopping-cart__content-icon{
+    margin-left: 1rem;
+    font-size: 30px;
+    color: #B7161E;
 }
 @media (min-width: 1024px){
     #shoping-cart-but{

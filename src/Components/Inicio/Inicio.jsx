@@ -8,11 +8,17 @@ import Dalpet2 from "../../assets/Images/Inicio-assets/Inicio-Dalpet2.png"
 import InicioSection2 from './InicioSection2'
 import ContactForm from './ContactForm'
 import Footer from '../Global-components/Footer'
-const Inicio = ({AllProducts, setAllProducts}) => {
-  
+const Inicio = ({AllProducts, setAllProducts, Total, setTotal, CountProducts, setCountProducts}) => {
   return (
     <>
-    <Header AllProducts={AllProducts} setAllProducts={setAllProducts}/>
+    <Header 
+    AllProducts={AllProducts} 
+    setAllProducts={setAllProducts} 
+    Total={Total} 
+    setTotal={setTotal} 
+    CountProducts={CountProducts} 
+    setCountProducts={setCountProducts}/>
+    
     <div id="Yellow-square"></div>
     <div className="King-div">
         <div  className='main-div'>

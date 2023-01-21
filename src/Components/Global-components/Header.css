@@ -84,6 +84,23 @@ header div{
     margin-left: 0.5rem;
     transform: rotateZ(20deg);
 }
+#count-products{
+    border-radius: 100%;
+    background-color: #FFB200;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    z-index: 1;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    color: #B7161E;
+}
+.Shop-icon-and-count{
+    display: grid;
+    grid-template-columns: 15% 45%;
+    place-items: center;
+}
 /*Responsive*/
 @media (min-width: 320px){
     .CanvasPosition{
