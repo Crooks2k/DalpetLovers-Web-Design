@@ -28,7 +28,6 @@ const ProductList = ({item, AllProducts, setAllProducts, Total, setTotal, CountP
     //... to expand Allproducts to add item (object) in object array
     setAllProducts([...AllProducts, item])
   }
-  console.log(AllProducts)
   return (
     <div id={item.type} className={item.raza}>
         <Card style={{ width: '22rem' }} className="card__body">

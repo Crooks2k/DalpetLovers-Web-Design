@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* HeaderVibe Styles */
+#Yellow-square{
+    width: 120px;
+    height: 70px;
+    z-index: -10;
+    background-color: #FFB200;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#HeaderVibe{
+    width: 100%;
+    position: relative;
+    top: 4px;
+    z-index: -4;
+}
+
+/* Categories */
+.Categories{
+    margin-left: 2rem;
+}
+.Categories h3{
+    color: #B7161E;
+    font-family: 'Fredoka One', cursive;
+}
+#cat1, #cat2, #cat3, #cat4{
+    margin-right: 0.6rem;
+    border-color: #B7161E;
+}
+label{
+    color: #B7161E;
+    font-family: 'Livvic', sans-serif;
+}
+
+/* Products */
+.Products h3{
+    color: #B7161E;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 3rem;
+}
+.Products-in-list{
+    display: grid;
+    grid-template-columns: 
+      repeat(auto-fit, 
+      minmax(360px, 1fr)
+      );
+    place-items: center;
+    margin-top: 2rem;
+}
+/*Responsive*/
+@media (min-width: 320px){
+}
+@media (min-width: 440px){
+    #HeaderVibe{
+        top: 7px;
+    }
+} 
+@media (min-width: 500px){
+    #HeaderVibe{
+        top: 10px;
+    }
+    .Categories{
+        text-align: center;
+    }
+    .Filter__radios{
+        display: grid;
+        place-items: center;
+        place-content: center;
+        grid-template-columns: auto auto auto auto;
+        gap: 2rem;
+    }
+    .Categories h3{
+        display: none;
+    }
+}
+@media (min-width: 600px){
+    #HeaderVibe{
+        top: -10px;
+    }
+    label{
+        font-size: 20px;
+    }
+} 
+@media (min-width: 767px){
+} 
+@media (min-width: 900px){
+    label{
+        font-size: 25px;
+    }
+    #cat1, #cat2, #cat3,#cat4{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (min-width: 1023px){
+}
+@media (min-width: 1224px){
+}
+@media (min-width: 1424px){
+}
