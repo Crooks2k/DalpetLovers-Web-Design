@@ -45,9 +45,9 @@ function Header({AllProducts, setAllProducts, Total, setTotal, CountProducts, se
                 <Offcanvas.Body id="offcanvas-body">
                   <Nav className="justify-content-end flex-grow-1 pe-3 " id="NavBar-colors">
               {/* link is used to get a SPA - single page aplication (if i use element a page have a reload)*/}
-                      <Nav.Link><Link to="/">Acerca de</Link></Nav.Link>
-                      <Nav.Link as={Link} to={"/components/Para-gatos/CatProducts"}>Para gatos</Nav.Link>
-                      <Nav.Link as={Link} to={"/components/Para-perros/DogProducts"}>Para perros</Nav.Link>
+                      <Nav.Link as={Link} to={"/"} className="nav-bar-nav">Acerca de</Nav.Link>
+                      <Nav.Link as={Link} to={"/components/Para-gatos/CatProducts"} className="nav-bar-nav">Para gatos</Nav.Link>
+                      <Nav.Link as={Link} to={"/components/Para-perros/DogProducts"} className="nav-bar-nav">Para perros</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

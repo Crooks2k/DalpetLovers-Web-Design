@@ -2,6 +2,9 @@ import React from 'react'
 import Header from '../Global-components/Header'
 import HeaderVibe from "../../assets/Images/Para-gatos-asetts/HeaderVibe.png"
 import Footer from '../Global-components/Footer'
+import {catProducts} from "./CatData.js"
+import CatProductList from './CatProductList'
+
 
 const CatProducts = ({AllProducts, setAllProducts, Total, setTotal, CountProducts, setCountProducts}) => {
   return (
@@ -17,7 +20,6 @@ const CatProducts = ({AllProducts, setAllProducts, Total, setTotal, CountProduct
         setCountProducts={setCountProducts}/>
         <img src={HeaderVibe} alt="Header-vibe" id="HeaderVibe"/>
       </div>
-      
       <div className="Product__list">
         <div className="Categories">
           <h3>Filtros</h3>
@@ -50,7 +52,19 @@ const CatProducts = ({AllProducts, setAllProducts, Total, setTotal, CountProduct
           <h3>Productos para gatos</h3>
           <div className="Products-in-list">
             {
-            //  Insert .map and props here
+              catProducts.map(item =>{
+                return(
+                  <CatProductList
+                  key={item.id} 
+                  item={item} 
+                  AllProducts={AllProducts} 
+                  setAllProducts={setAllProducts}
+                  CountProducts={CountProducts} 
+                  setCountProducts={setCountProducts}
+                  Total={Total}
+                  setTotal={setTotal}/>
+                )
+              })
             }
           </div>
         </div>

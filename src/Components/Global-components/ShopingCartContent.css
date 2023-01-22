@@ -43,11 +43,28 @@
     color: #B7161E;
     font-size: 20px!important;
 }
-#clear-icon{
-    color: #B7161E;
+/* Shoping cart buttons */
+#shop-cart-buttons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-end;
+}
+#shop-cart-buttons button{
+    background-color: #FFB200;
+    border: none;
+    width: 40px;
+    height: 33px;
+}
+#clear1{
+    border-radius: 12px 0 0 12px;
+    margin-right: 2px;
+}
+#clear3{
+    border-radius: 0 12px 12px 0;
+    margin-left: 1px;
+}
+.clear-icon{
+    color: #FFFFFF;
     font-size: 20px;
-    left: 1.5%;
-    top: 2%;
     font-weight: 900;
-    position: absolute;
 }

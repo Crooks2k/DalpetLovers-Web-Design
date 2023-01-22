@@ -1,176 +1,148 @@
-//Daldog cachorro raza pequeña
-import Daldog1kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Cachorro/Daldog-1KG.png"
-import Daldog10kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Cachorro/Daldog-10KG.png"
-import Daldog25kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Cachorro/Daldog-25KG.png"
+//Dalcat gatitos
+import Dalcat1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-gatitos/Dalcat-gatito1KG.png"
+import Dalcat10kg from "../../assets/Images/Para-gatos-asetts/Dalcat-gatitos/Dalcat-gatito10KG.png"
 
-//Daldog adulto raza pequeña
-import DaldogA1kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Adulto/Daldog-A-1KG.png"
-import DaldogA10kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Adulto/Daldog-A-10KG.png"
-import DaldogA25kg from "../../assets/Images/Para-perros-asetts/Razas-pequeñas/Adulto/Daldog-A-25KG.png"
+//Dalcat adultos
+import DalcatA1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Adultos/Dalcat-adulto1kg.png"
+import DalcatA10kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Adultos/Dalcat-adulto10kg.png"
+import DalcatA25kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Adultos/Dalcat-adulto25kg.png"
 
-// Daldog adulto raza media y grande
-import DaldogMGA15kg from "../../assets/Images/Para-perros-asetts/Razas-medias-grandes/Adulto/Daldog-MG-A-15KG.png"
-import DaldogMGA25kg from "../../assets/Images/Para-perros-asetts/Razas-medias-grandes/Adulto/Daldog-MG-A-25KG.png"
+// Dalcat castrados
+import DalcatC1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Castrados/Dalcat-castrados1kg.png"
+import DalcatC10kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Castrados/Dalcat-castrados10kg.png"
 
-//Pro Omega cachorro razas pequeñas
-import ProOmega1kg from "../../assets/Images/Para-perros-asetts/Pro-Omega/Razas-pequeñas/Cachorro/Pro-Omega-1KG.png"
-import ProOmega3kg from "../../assets/Images/Para-perros-asetts/Pro-Omega/Razas-pequeñas/Cachorro/Pro-Omega-3KG.png"
+//arenas
+import Dalclean4kg from "../../assets/Images/Para-gatos-asetts/Arenas/Dalclean4kg.png"
+import Superclean5kg from "../../assets/Images/Para-gatos-asetts/Arenas/Superclean5kg.png"
+import Superclean10kg from "../../assets/Images/Para-gatos-asetts/Arenas/Superclean10kg.png"
+import Superclean25kg  from "../../assets/Images/Para-gatos-asetts/Arenas/Superclean25kg.png"
 
-//Pro omega adulto razas pequeñas
-import ProOmegaA1kg from "../../assets/Images/Para-perros-asetts/Pro-Omega/Razas-pequeñas/Adulto/Pro-Omega-A-1KG.png"
-import ProOmegaA3kg from "../../assets/Images/Para-perros-asetts/Pro-Omega/Razas-pequeñas/Adulto/Pro-Omega-A-3KG.png"
-import ProOmegaA10kg from "../../assets/Images/Para-perros-asetts/Pro-Omega/Razas-pequeñas/Adulto/Pro-Omega-A-10KG.png"
 
-export const Products = 
+export const catProducts = 
 [
-  // Daldog cachorro raza pequeña
-  {"id": 1,
-    "ProductName": "Daldog Cachorro",
-    "Description": "Daldog Cachorro, Razas Pequeñas",
-    "alt": "Daldog raza pequeña 1kg",
+  // Dalcat cachorro
+  {"id": 14,
+    "ProductName": "Dalcat Gatitos",
+    "Description": "Dalcat Gatitos, alimento completo para gatos cachorros",
+    "alt": "Dalcat Gatitos 1kg",
     "peso": "1kg",
-    "image": Daldog1kg,
-    "price": 15250,
-    "type": "cachorro",
-    "raza": "pequeña",
+    "image": Dalcat1kg,
+    "price": 20000,
+    "type": "comida",
+    "raza": "cachorros",
     "quantity": 1,},
 
-  {"id": 2,
-    "ProductName": "Daldog Cachorro",
-    "Description": "Daldog Cachorro, Razas Pequeñas",
-    "alt": "Daldog raza pequeña 10,1kg",
-    "peso": "10,1kg",
-    "image": Daldog10kg,
-    "price": 128500,
-    "type": "cachorro",
-    "raza": "pequeña",
+  {"id": 15,
+  "ProductName": "Dalcat Gatitos",
+  "Description": "Dalcat Gatitos, alimento completo para gatos cachorros",
+  "alt": "Dalcat Gatitos 10kg",
+  "peso": "10kg",
+  "image": Dalcat10kg,
+  "price": 154000,
+  "type": "comida",
+  "raza": "cachorros",
+  "quantity": 1,},
+
+  // Dalcat adulto
+  {"id": 16,
+    "ProductName": "Dalcat Adultos",
+    "Description": "Dalcat Adultos, alimento completo para gatos adultos",
+    "alt": "Dalcat gatitos 1kg",
+    "peso": "1kg",
+    "image": DalcatA1kg,
+    "price": 18000,
+    "type": "comida",
+    "raza": "adultos",
     "quantity": 1,},
 
-  {"id": 3,
-    "ProductName": "Daldog Cachorro",
-    "Description": "Daldog Cachorro, Razas Pequeñas",
-    "alt": "Daldog raza pequeña 25kg",
+  {"id": 17,
+  "ProductName": "Dalcat Adultos",
+  "Description": "Dalcat Adultos, alimento completo para gatos adultos",
+  "alt": "Dalcat gatitos 10kg",
+  "peso": "10kg",
+  "image": DalcatA10kg,
+  "price": 145000,
+  "type": "comida",
+  "raza": "adultos",
+  "quantity": 1,},
+
+  {"id": 18,
+  "ProductName": "Dalcat Adultos",
+  "Description": "Dalcat Adultos, alimento completo para gatos adultos",
+  "alt": "Dalcat gatitos 25kg",
+  "peso": "25kg",
+  "image": DalcatA25kg,
+  "price": 326000,
+  "type": "comida",
+  "raza": "adultos",
+  "quantity": 1,},
+
+  // Dalcat gatos castrados
+  {"id": 19,
+    "ProductName": "Dalcat castrados",
+    "Description": "Dalcat castrados, alimento completo para gatos castrados",
+    "alt": "Dalcat castrados 1kg",
+    "peso": "1kg",
+    "image": DalcatC1kg,
+    "price": 21000,
+    "type": "comida",
+    "raza": "adultos",
+    "quantity": 1,},
+
+    {"id": 20,
+    "ProductName": "Dalcat castrados",
+    "Description": "Dalcat castrados, alimento completo para gatos castrados",
+    "alt": "Dalcat castrados 10kg",
+    "peso": "10kg",
+    "image": DalcatC10kg,
+    "price": 168000,
+    "type": "comida",
+    "raza": "adultos",
+    "quantity": 1,},
+
+    // Arena para gatos Dalclean
+    {"id": 21,
+    "ProductName": "Arena para gatos Dalclean",
+    "Description": "Arena Dalclean, optima absorción, neutraliza olores, antibacterias",
+    "alt": "Dalclean 4kg",
+    "peso": "4kg",
+    "image": Dalclean4kg,
+    "price": 14500,
+    "type": "arena",
+    "raza": "cualquiera",
+    "quantity": 1,},
+
+    // Arena para gatos Super clean
+    {"id": 22,
+    "ProductName": "Arena para gatos Super clean",
+    "Description": "Arena Super clean, absorbe, encapsula y posee fragancia a lavanda",
+    "alt": "Superclean 5kg",
+    "peso": "5kg",
+    "image": Superclean5kg,
+    "price": 21000,
+    "type": "arena",
+    "raza": "cualquiera",
+    "quantity": 1,},
+
+    {"id": 23,
+    "ProductName": "Arena para gatos Super clean",
+    "Description": "Arena Super clean, absorbe, encapsula y posee fragancia a lavanda",
+    "alt": "Superclean 10kg",
+    "peso": "10kg",
+    "image": Superclean10kg,
+    "price": 38200,
+    "type": "arena",
+    "raza": "cualquiera",
+    "quantity": 1,},
+
+    {"id": 24,
+    "ProductName": "Arena para gatos Super clean",
+    "Description": "Arena Super clean, absorbe, encapsula y posee fragancia a lavanda",
+    "alt": "Superclean 25kg",
     "peso": "25kg",
-    "image": Daldog25kg,
-    "price": 282800,
-    "type": "cachorro",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    // Daldog adulto raza pequeña
-  {"id": 4,
-    "ProductName": "Daldog Adulto",
-    "Description": "Daldog Adulto, Razas pequeñas",
-    "alt": "Daldog raza pequeña 1kg",
-    "peso": "1kg",
-    "image": DaldogA1kg,
-    "price": 15200,
-    "type": "adulto",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-  {"id": 5,
-    "ProductName": "Daldog Adulto",
-    "Description": "Daldog Adulto, Razas pequeñas",
-    "alt": "Daldog raza pequeña 10.1kg",
-    "peso": "10,1kg",
-    "image": DaldogA10kg,
-    "price": 125600,
-    "type": "adulto",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-  {"id": 6,
-    "ProductName": "Daldog Adulto",
-    "Description": "Daldog Adulto, Razas pequeñas",
-    "alt": "Daldog raza pequeña 25kg",
-    "peso": "25kg",
-    "image": DaldogA25kg,
-    "price": 276000,
-    "type": "adulto",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    // Daldog adulto raza media y grande
-
-  {"id": 7,
-    "ProductName": "Daldog Adulto",
-    "Description": "Daldog Adulto, Razas medias y grandes",
-    "alt": "Daldog raza media / grande 15kg",
-    "peso": "15kg",
-    "image": DaldogMGA15kg,
-    "price": 153700,
-    "type": "adulto",
-    "raza": "grande",
-    "quantity": 1,},
-
-  {"id": 8,
-    "ProductName": "Daldog Adulto",
-    "Description": "Daldog Adulto, Razas medias y grandes",
-    "alt": "Daldog raza media / grande 25kg",
-    "peso": "25kg",
-    "image": DaldogMGA25kg,
-    "price": 244000,
-    "type": "adulto",
-    "raza": "grande",
-    "quantity": 1,},
-
-    //Pro Omega cachorro razas pequeñas
-
-    {"id": 9,
-    "ProductName": "Pro Omega Cachorro",
-    "Description": "Pro Omega Cachorros, Razas pequeñas",
-    "alt": "Pro Omega Cachorro 1kg",
-    "peso": "1kg",
-    "image": ProOmega1kg,
-    "price": 18100,
-    "type": "cachorro",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    {"id": 10,
-    "ProductName": "Pro Omega Cachorro",
-    "Description": "Pro Omega Cachorros, Razas pequeñas",
-    "alt": "Pro Omega Cachorro 3kg",
-    "peso": "3kg",
-    "image": ProOmega3kg,
-    "price": 45400,
-    "type": "cachorro",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    //Pro omega adulto razas pequeñas
-
-    {"id": 11,
-    "ProductName": "Pro Omega Adulto",
-    "Description": "Pro Omega Adulto, Razas pequeñas",
-    "alt": "Pro Omega Adulto 1kg",
-    "peso": "1kg",
-    "image": ProOmegaA1kg,
-    "price": 16600,
-    "type": "adulto",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    {"id": 12,
-    "ProductName": "Pro Omega Adulto",
-    "Description": "Pro Omega Adulto, Razas pequeñas",
-    "alt": "Pro Omega Adulto 3kg",
-    "peso": "3kg",
-    "image": ProOmegaA3kg,
-    "price": 45400,
-    "type": "adulto",
-    "raza": "pequeña",
-    "quantity": 1,},
-
-    {"id": 13,
-    "ProductName": "Pro Omega Adulto",
-    "Description": "Pro Omega Adulto, Razas pequeñas",
-    "alt": "Pro Omega Adulto 10,1kg",
-    "peso": "10,1kg",
-    "image": ProOmegaA10kg,
-    "price": 128500,
-    "type": "adulto",
-    "raza": "pequeña",
+    "image": Superclean25kg,
+    "price": 83900,
+    "type": "arena",
+    "raza": "cualquiera",
     "quantity": 1,},
 ]

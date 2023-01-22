@@ -34,11 +34,13 @@
 #Shoping-card-body{
     font-family: 'Livvic', sans-serif;
     text-align: center;
+    background-color: #FFFFFF;
 }
 #Shoping-cart__price{
     background-color: #FFB200;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.341);
 }
 #shop-cart__tittle-price{
     color: #B7161E;
@@ -49,13 +51,14 @@
     filter: saturate(1);
 }
 .nothing-in-cart{
-    transform: translate(0, 15%);
     opacity: 0.4;
     font-family: 'Fredoka One', cursive!important;
+    height: 100px;
 }
 #total-price{
+    font-family: 'Fredoka One', cursive!important;
     color: #B7161E;
-    margin-left: 1rem!important;
+    margin-left: 0.3rem!important;
 }
 #Clear-shopping-cart__content{
     width: 100%;
@@ -63,6 +66,7 @@
     background-color: #FFB200;
     display: flex;
     gap: 0.2rem;
+    margin-top: -0.1rem;
 }
 #Clear-shopping-cart__content p{
     color: #B7161E;

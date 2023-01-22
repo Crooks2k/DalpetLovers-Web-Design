@@ -6,7 +6,6 @@ import './Components/Global-components/ShopingCart.css'
 import "./Components/Global-components/ShopingCartContent.css"
 import Inicio from './Components/Inicio/Inicio'
 import './Components/Inicio/Inicio.css'
-import './Components/Inicio/InicioSection2.css'
 import './Components/Inicio/ContactForm.css'
 import './Components/Global-components/Footer.css'
 import DogProducts from './Components/Para-perros/DogProducts'
