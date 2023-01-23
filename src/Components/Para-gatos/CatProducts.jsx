@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Global-components/Header'
 import HeaderVibe from "../../assets/Images/Para-gatos-asetts/HeaderVibe.png"
 import Footer from '../Global-components/Footer'
-import {catProducts} from "./CatData.js"
+import {catProducts} from "./CatData.jsx"
 import CatProductList from './CatProductList'
 
 

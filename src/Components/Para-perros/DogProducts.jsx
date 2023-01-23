@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Global-components/Header'
 import HeaderVibe from "../../assets/Images/Para-perros-asetts/Header-vibe.png"
 import Footer from '../Global-components/Footer'
-import {Products} from "./data.js"
+import {Products} from "./data.jsx"
 import ProductList from './ProductList'
 
 //props from app.jsx to enter products in the car
