@@ -1,6 +1,6 @@
 //Dalcat gatitos
-import Dalcat1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-gatitos/Dalcat-gatito1KG.png"
-import Dalcat10kg from "../../assets/Images/Para-gatos-asetts/Dalcat-gatitos/Dalcat-gatito10KG.png"
+import Dalcat1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Gatitos/Dalcat-gatito1kg.png"
+import Dalcat10kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Gatitos/Dalcat-gatito10kg.png"
 
 //Dalcat adultos
 import DalcatA1kg from "../../assets/Images/Para-gatos-asetts/Dalcat-Adultos/Dalcat-adulto1kg.png"
