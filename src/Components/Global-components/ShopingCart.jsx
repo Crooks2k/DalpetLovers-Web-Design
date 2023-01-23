@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { AiOutlineShoppingCart } from 'react-icons/Ai';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 import Huellita from "../../assets/Images/Global-components-assets/Huellita-logo.png"
 import sadcat from "../../assets/Images/Global-components-assets/sad-cat.png"
 import ShopingCartContent from './ShopingCartContent';
