@@ -45,8 +45,7 @@ const Pedido = ({AllProducts, setAllProducts, Total, setTotal, CountProducts, se
       "adress": adress,
       "number": number,
       "totalPrice": Total,
-      "products":  ProductData}]
-    console.log(data);
+      "products":  ProductData}];
 
     //whatsapp order message
     const message = `Hola, soy ${data[0].name} y me gustaria solicitar la siguiente orden a domicilio.
