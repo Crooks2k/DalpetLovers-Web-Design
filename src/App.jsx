@@ -14,6 +14,8 @@ import './Components/Para-perros/ProductList.css'
 import CatProducts from './Components/Para-gatos/CatProducts'
 import './Components/Para-gatos/CatProducts.css'
 import './Components/Para-gatos/CatProductList.css'
+import Pedido from './Components/Pedido/Pedido'
+import './Components/Pedido/Pedido.css'
 
 function App() {
 
@@ -46,6 +48,14 @@ function App() {
       setCountProducts={setCountProducts}/>}/>
 
       <Route path="/components/Para-gatos/CatProducts" element={<CatProducts
+      AllProducts={AllProducts}  
+      setAllProducts={setAllProducts} 
+      Total={Total} 
+      setTotal={setTotal} 
+      CountProducts={CountProducts} 
+      setCountProducts={setCountProducts}/>}/>
+
+      <Route path="/components/Pedido/Pedido" element={<Pedido
       AllProducts={AllProducts}  
       setAllProducts={setAllProducts} 
       Total={Total} 

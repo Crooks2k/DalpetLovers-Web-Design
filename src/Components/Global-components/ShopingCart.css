@@ -41,6 +41,20 @@
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.341);
+    display: flex;
+}
+#Shoping-cart__price button{
+    background-color: #B7161E;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    font-family: 'Livvic', sans-serif;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+}
+#Shoping-cart__price button:hover{
+    transform: scale(1.1);
+    color: #FFB200;
 }
 #shop-cart__tittle-price{
     color: #B7161E;
