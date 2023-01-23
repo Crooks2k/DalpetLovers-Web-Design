@@ -59,7 +59,7 @@ const ShopingCartContent = ({AllProducts, setAllProducts, Total, setTotal, Count
           <Card.Img variant="top" src={item.image} alt={item.alt} id="product__image"/>
           {/* Shopingcart buttons */}
           <ButtonGroup size="sm" id="shop-cart-buttons">
-            <Button id="clear1" onClick={() => SubOneProduct(item)}><RiSubtractFill className="clear-icon"/></Button>
+            <Button id="clear1" onClick={() => SubOneProduct(item)} disabled={item.quantity === 1 ? "enabled" : ''}><RiSubtractFill className="clear-icon"/></Button>
             <Button onClick={() => DelProduct(item)} id="clear2"><FiTrash2 className="clear-icon"/></Button>
             <Button id="clear3" onClick={() => AddOneProduct(item)}><MdOutlineAdd className="clear-icon"/></Button>
           </ButtonGroup>

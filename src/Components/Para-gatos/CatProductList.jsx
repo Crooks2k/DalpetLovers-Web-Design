@@ -25,6 +25,7 @@ const CatProductList = ({item, AllProducts, setAllProducts, Total, setTotal, Cou
     setCountProducts(CountProducts + item.quantity)
     //... to expand Allproducts to add item (object) in object array
     setAllProducts([...AllProducts, item])
+    
   }
   return (
     <div id={item.type} className={item.raza}>

@@ -28,6 +28,9 @@ function App() {
   //estado para contador de productos
   const [CountProducts, setCountProducts] = useState(0);
 
+  //Almacenamiento de localstorage
+  
+
   return (
     <>
     <Routes>

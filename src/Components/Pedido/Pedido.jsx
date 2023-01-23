@@ -66,7 +66,7 @@ const Pedido = ({AllProducts, setAllProducts, Total, setTotal, CountProducts, se
     *Valor unitario:* $${item.price}
     *Cantidad de productos:* ${item.quantity}
     `)}
-    ----------------------------------
+    ------------------------------
     *VALOR TOTAL DE LA ORDEN:* $${data[0].totalPrice}`
 
     //encodeUriComponent, encodes a string to send in url
